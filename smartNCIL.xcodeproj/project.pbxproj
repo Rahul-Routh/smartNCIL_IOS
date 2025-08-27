@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		45975C902E5EB1AE00392BDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45975C7A2E5EB1AC00392BDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45975C812E5EB1AC00392BDE;
+			remoteInfo = smartNCIL;
+		};
+		45975C9A2E5EB1AE00392BDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45975C7A2E5EB1AC00392BDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45975C812E5EB1AC00392BDE;
+			remoteInfo = smartNCIL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45975C822E5EB1AC00392BDE /* smartNCIL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = smartNCIL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45975C8F2E5EB1AE00392BDE /* smartNCILTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartNCILTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45975C992E5EB1AE00392BDE /* smartNCILUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartNCILUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		45975C842E5EB1AC00392BDE /* smartNCIL */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = smartNCIL;
+			sourceTree = "<group>";
+		};
+		45975C922E5EB1AE00392BDE /* smartNCILTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = smartNCILTests;
+			sourceTree = "<group>";
+		};
+		45975C9C2E5EB1AE00392BDE /* smartNCILUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = smartNCILUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45975C7F2E5EB1AC00392BDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45975C8C2E5EB1AE00392BDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45975C962E5EB1AE00392BDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45975C792E5EB1AC00392BDE = {
+			isa = PBXGroup;
+			children = (
+				45975C842E5EB1AC00392BDE /* smartNCIL */,
+				45975C922E5EB1AE00392BDE /* smartNCILTests */,
+				45975C9C2E5EB1AE00392BDE /* smartNCILUITests */,
+				45975C832E5EB1AC00392BDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45975C832E5EB1AC00392BDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45975C822E5EB1AC00392BDE /* smartNCIL.app */,
+				45975C8F2E5EB1AE00392BDE /* smartNCILTests.xctest */,
+				45975C992E5EB1AE00392BDE /* smartNCILUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45975C812E5EB1AC00392BDE /* smartNCIL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45975CA32E5EB1AE00392BDE /* Build configuration list for PBXNativeTarget "smartNCIL" */;
+			buildPhases = (
+				45975C7E2E5EB1AC00392BDE /* Sources */,
+				45975C7F2E5EB1AC00392BDE /* Frameworks */,
+				45975C802E5EB1AC00392BDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				45975C842E5EB1AC00392BDE /* smartNCIL */,
+			);
+			name = smartNCIL;
+			packageProductDependencies = (
+			);
+			productName = smartNCIL;
+			productReference = 45975C822E5EB1AC00392BDE /* smartNCIL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45975C8E2E5EB1AE00392BDE /* smartNCILTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45975CA62E5EB1AE00392BDE /* Build configuration list for PBXNativeTarget "smartNCILTests" */;
+			buildPhases = (
+				45975C8B2E5EB1AE00392BDE /* Sources */,
+				45975C8C2E5EB1AE00392BDE /* Frameworks */,
+				45975C8D2E5EB1AE00392BDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45975C912E5EB1AE00392BDE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				45975C922E5EB1AE00392BDE /* smartNCILTests */,
+			);
+			name = smartNCILTests;
+			packageProductDependencies = (
+			);
+			productName = smartNCILTests;
+			productReference = 45975C8F2E5EB1AE00392BDE /* smartNCILTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45975C982E5EB1AE00392BDE /* smartNCILUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45975CA92E5EB1AE00392BDE /* Build configuration list for PBXNativeTarget "smartNCILUITests" */;
+			buildPhases = (
+				45975C952E5EB1AE00392BDE /* Sources */,
+				45975C962E5EB1AE00392BDE /* Frameworks */,
+				45975C972E5EB1AE00392BDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45975C9B2E5EB1AE00392BDE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				45975C9C2E5EB1AE00392BDE /* smartNCILUITests */,
+			);
+			name = smartNCILUITests;
+			packageProductDependencies = (
+			);
+			productName = smartNCILUITests;
+			productReference = 45975C992E5EB1AE00392BDE /* smartNCILUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45975C7A2E5EB1AC00392BDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					45975C812E5EB1AC00392BDE = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					45975C8E2E5EB1AE00392BDE = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 45975C812E5EB1AC00392BDE;
+					};
+					45975C982E5EB1AE00392BDE = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 45975C812E5EB1AC00392BDE;
+					};
+				};
+			};
+			buildConfigurationList = 45975C7D2E5EB1AC00392BDE /* Build configuration list for PBXProject "smartNCIL" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45975C792E5EB1AC00392BDE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 45975C832E5EB1AC00392BDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45975C812E5EB1AC00392BDE /* smartNCIL */,
+				45975C8E2E5EB1AE00392BDE /* smartNCILTests */,
+				45975C982E5EB1AE00392BDE /* smartNCILUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45975C802E5EB1AC00392BDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45975C8D2E5EB1AE00392BDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45975C972E5EB1AE00392BDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45975C7E2E5EB1AC00392BDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45975C8B2E5EB1AE00392BDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45975C952E5EB1AE00392BDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45975C912E5EB1AE00392BDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45975C812E5EB1AC00392BDE /* smartNCIL */;
+			targetProxy = 45975C902E5EB1AE00392BDE /* PBXContainerItemProxy */;
+		};
+		45975C9B2E5EB1AE00392BDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45975C812E5EB1AC00392BDE /* smartNCIL */;
+			targetProxy = 45975C9A2E5EB1AE00392BDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		45975CA12E5EB1AE00392BDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45975CA22E5EB1AE00392BDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45975CA42E5EB1AE00392BDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ncil.smartNCIL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45975CA52E5EB1AE00392BDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ncil.smartNCIL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45975CA72E5EB1AE00392BDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ncil.smartNCILTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smartNCIL.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/smartNCIL";
+			};
+			name = Debug;
+		};
+		45975CA82E5EB1AE00392BDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ncil.smartNCILTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/smartNCIL.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/smartNCIL";
+			};
+			name = Release;
+		};
+		45975CAA2E5EB1AE00392BDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ncil.smartNCILUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = smartNCIL;
+			};
+			name = Debug;
+		};
+		45975CAB2E5EB1AE00392BDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ncil.smartNCILUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = smartNCIL;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45975C7D2E5EB1AC00392BDE /* Build configuration list for PBXProject "smartNCIL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45975CA12E5EB1AE00392BDE /* Debug */,
+				45975CA22E5EB1AE00392BDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45975CA32E5EB1AE00392BDE /* Build configuration list for PBXNativeTarget "smartNCIL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45975CA42E5EB1AE00392BDE /* Debug */,
+				45975CA52E5EB1AE00392BDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45975CA62E5EB1AE00392BDE /* Build configuration list for PBXNativeTarget "smartNCILTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45975CA72E5EB1AE00392BDE /* Debug */,
+				45975CA82E5EB1AE00392BDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45975CA92E5EB1AE00392BDE /* Build configuration list for PBXNativeTarget "smartNCILUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45975CAA2E5EB1AE00392BDE /* Debug */,
+				45975CAB2E5EB1AE00392BDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45975C7A2E5EB1AC00392BDE /* Project object */;
+}
